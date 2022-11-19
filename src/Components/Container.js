@@ -14,7 +14,7 @@ const Container = () => {
   };
   return (
     <div style={styles.div}>
-      <Carousel variant="dark">
+      <Carousel pause="hover" variant="dark">
         <Carousel.Item>
           <Carousel.Caption>
             <h5>Work</h5>

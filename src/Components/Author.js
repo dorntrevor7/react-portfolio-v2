@@ -65,7 +65,7 @@ const Author = () => {
             <Form.Label>Email address</Form.Label>
             <Form.Control required type="email" placeholder="Enter email" />
             <Form.Text className="text-muted">
-              I will never share your email with anyone else.
+              I will never share your email with anyone else. TM
             </Form.Text>
           </Form.Group>
 
