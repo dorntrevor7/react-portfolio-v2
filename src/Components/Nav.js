@@ -5,7 +5,7 @@ const Nav = () => {
         Work
       </h3>
       <h3 className="featureToggle" id="proj">
-        Proj
+        Auth
       </h3>
     </nav>
   );

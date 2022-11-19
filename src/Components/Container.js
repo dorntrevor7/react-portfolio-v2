@@ -1,4 +1,4 @@
-import Work from "./Work";
+import Author from "./Author";
 import "../Css/App.css";
 import Carousel from "react-bootstrap/Carousel";
 
@@ -23,33 +23,21 @@ const Container = () => {
             style={styles.carousel}
             className="d-block w-100"
             src="https://via.placeholder.com/5"
-            alt="Work Slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <Carousel.Caption>
-            <h5>Projects</h5>
-          </Carousel.Caption>
-          <img
-            style={styles.carousel}
-            className="d-block w-100"
-            src="https://via.placeholder.com/5"
-            alt="Project Slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <Carousel.Caption>
-            <h5>Author</h5>
-          </Carousel.Caption>
-          <img
-            style={styles.carousel}
-            className="d-block w-100"
-            src="https://via.placeholder.com/5"
             alt="Author Slide"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <Carousel.Caption>
+            <Author />
+          </Carousel.Caption>
+          <img
+            style={styles.carousel}
+            className="d-block w-100"
+            src="https://via.placeholder.com/5"
+            alt="Work Slide"
+          />
+        </Carousel.Item>
       </Carousel>
-      <Work></Work>
     </div>
   );
 };
