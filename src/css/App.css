@@ -1,0 +1,26 @@
+/* Header Component Styling */
+header {
+  text-align: center;
+  font-weight: 700px;
+  font-family: "Noto Serif Oriya", serif;
+  padding: 4rem;
+}
+header h1 {
+  margin-left: 25px;
+}
+
+.navToggle {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
+.navToggle h3 {
+  padding: 20px;
+  color: darkgrey;
+  text-decoration: underline overline;
+}
+
+.navToggle h3:hover {
+  color: black;
+  cursor: zoom-in;
+}

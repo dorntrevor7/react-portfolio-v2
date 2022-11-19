@@ -1,3 +1,5 @@
-# react-portfolio-v2
+# Trevor Dorn's <a href="https://github.com/dorntrevor7/react-portfolio-v2" target="_blank">Portfolio</a>
 
-Version 2.0.0 react portfolio
+## Description
+
+#### This is the second version of my react portfolio that includes my projects and personal portfolio.
