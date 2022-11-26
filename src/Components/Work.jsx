@@ -13,6 +13,9 @@ const Work = () => {
       <div className="Row">
         <img src="" />
       </div>
+      <div className="Row">
+        <img src="" />
+      </div>
     </>
   );
 };
