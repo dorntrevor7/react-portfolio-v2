@@ -23,7 +23,7 @@ const Author = () => {
       <div>
         <Image
           style={styles.image}
-          src="https://avatars.githubusercontent.com/u/101607489?v=4"
+          src="https://media.licdn.com/dms/image/C5603AQEkjKUcvqLTAA/profile-displayphoto-shrink_400_400/0/1653262712594?e=1676505600&v=beta&t=7hYbL7EJuM2sMMaKGTL6h09zhzL8sUiJ3NesiRrMoRc"
           alt="Picture of Trevor Dorn"
           roundedCircle
         />
@@ -31,15 +31,14 @@ const Author = () => {
           <h3 style={styles.stylehead}>About Me</h3>
           <hr />
           <p style={styles.stylebody}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis nisi
-            veniam itaque quod. A adipisci ipsa eos magnam blanditiis sint est
-            exercitationem similique incidunt hic. Non iusto distinctio esse
-            aut? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Excepturi aliquid dolorem autem itaque maxime expedita tenetur
-            suscipit, dolorum laborum pariatur consectetur adipisci enim
-            quisquam fugiat tempora architecto distinctio ad possimus! Adipisci
-            eaque minus sunt quibusdam, molestiae error illo laboriosam
-            laudantium.
+            As a Full-Stack Developer, I strive to take pride in my work. In
+            2018, I decided to start my coding career, starting in Java and then
+            went on to the University of Arizona to graduate with a professional
+            certificate in 2020 for Full-Stack Developing using all the
+            technical skills featured below. After I graduated, I tutored
+            students around the nation to achieve their certificates and just
+            completed my second cohort for the University of Arizona, Full-Stack
+            Development.
           </p>
         </div>
       </div>

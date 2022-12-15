@@ -1,6 +1,6 @@
 import Author from "../Components/Author";
 import Contact from "../Components/Contact";
-import Work from "../Components/Work";
+import Work from "./work";
 import "../Css/App.css";
 import Carousel from "react-bootstrap/Carousel";
 
