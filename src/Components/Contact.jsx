@@ -1,4 +1,7 @@
 import { Image, Form, Button } from "react-bootstrap";
+const email = document.getElementById("email");
+const name = document.getElementById("name");
+const text = document.getElementById("text");
 function Contact() {
   const styles = {
     formContain: {
@@ -10,6 +13,10 @@ function Contact() {
     formStyleHead: {
       textShadow: "2px 2px #fad67b",
     },
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
   };
   return (
     <div style={styles.formContain}>
@@ -33,7 +40,7 @@ function Contact() {
           <Form.Control as="textarea" rows="3" />
         </Form.Group>
         <br />
-        <Button variant="info" type="submit">
+        <Button variant="info" type="submit" onClick={onSubmit}>
           Submit
         </Button>
       </Form>

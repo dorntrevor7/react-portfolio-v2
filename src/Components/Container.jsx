@@ -52,9 +52,8 @@ const Container = () => {
             alt="Work Slide"
             id="contact"
           />
-          <Carousel.Caption>
+          <Carousel.Caption style={{ marginBottom: "150px" }}>
             <Contact />
-            <h5>Contact </h5>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

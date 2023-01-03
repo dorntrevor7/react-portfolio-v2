@@ -11,8 +11,10 @@ function Footer() {
       >
         {" "}
         Copyright,{" "}
-        <a href="https://www.linkedin.com/in/skylar-dorn-0a6784234/">Skylar</a>,
-        2022
+        <a href="https://www.linkedin.com/in/skylar-dorn-0a6784234/">
+          Trev's LinkedIn
+        </a>
+        , 2022
       </p>
     </div>
   );
